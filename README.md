@@ -1,5 +1,5 @@
 ## Шилд на 2 порта RS-485 и пример Yocto дистрибутива для него
-![image](https://user-images.githubusercontent.com/32985830/163589087-43b1ac8a-1eab-4c00-b09e-1f3d88b87940.png)
+![image](https://user-images.githubusercontent.com/32985830/163590032-d84f0943-8463-40f4-8f81-e4c9355a1b6c.png)
 
 ## Сборка Yocto под WSL2
 
