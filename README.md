@@ -11,11 +11,6 @@ $ wsl -l -v
 
 Если все ок переходим в WSL. Сборка тестировалась на Ubuntu 20
 
-# Установка пакетов для нормальной работы Yocto
-```
-$ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping libsdl1.2-dev xterm
-```
-
 Структура 
 ```
 .
