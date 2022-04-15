@@ -1,4 +1,7 @@
+## Сборка Yocto под WSL2
+
 Проверка наличия wsl и версии
+
 $ wsl -l -v
 Если версия ниже 2 или wsl нет смотрим  инструкцию по установке/апгрейду https://docs.microsoft.com/en-us/windows/wsl/install-manual
 
