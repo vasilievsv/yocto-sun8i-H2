@@ -1,3 +1,6 @@
+## Шилд на 2 порта RS-485 и пример Yocto дистрибутива для него
+![image](https://user-images.githubusercontent.com/32985830/163589087-43b1ac8a-1eab-4c00-b09e-1f3d88b87940.png)
+
 ## Сборка Yocto под WSL2
 
 Проверка наличия wsl и версии
@@ -46,8 +49,7 @@ $ build.sh                  - Скрипт старта сборки
 ```
 Копируем файл обратно на раздел /mnt/c/<папка> и записываем его https://www.balena.io/etcher/
 
-## Шилд на 2 порта RS-485
-![image](https://user-images.githubusercontent.com/32985830/163589087-43b1ac8a-1eab-4c00-b09e-1f3d88b87940.png)
+
 
 ![image](https://user-images.githubusercontent.com/32985830/163589279-aed38e7b-69e0-4c81-ab58-39b81f1d8ff6.png)
 
