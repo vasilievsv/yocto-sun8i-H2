@@ -43,8 +43,3 @@ $ build.sh                  - Скрипт старта сборки
 ./build/tmp/deploy/images/orange-pi-zero/core-image-minimal-orange-pi-zero-<какойто номер>.rootfs.wic.bz2
 ```
 Копируем файл обратно на раздел /mnt/c/<папка> и записываем его https://www.balena.io/etcher/
-
-
-
-![image](https://user-images.githubusercontent.com/32985830/163589279-aed38e7b-69e0-4c81-ab58-39b81f1d8ff6.png)
-
