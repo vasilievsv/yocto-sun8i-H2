@@ -1,5 +1,6 @@
 ## Сборка Yocto под WSL2
 
+
 Проверка наличия wsl и версии
 
 $ wsl -l -v
@@ -41,3 +42,5 @@ $ build.sh                  - Скрипт старта сборки
 
 Копируем файл обратно на раздел /mnt/c/<папка> и записываем его https://www.balena.io/etcher/
 
+## Шилд на 2 порта RS-485
+![image](https://user-images.githubusercontent.com/32985830/163589087-43b1ac8a-1eab-4c00-b09e-1f3d88b87940.png)
