@@ -12,6 +12,7 @@ $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib bu
 $tar -xzf yocto-distr.tar.gz
 
 содержимое архива
+`
 .
 ├── README.md
 ├── build
@@ -31,7 +32,7 @@ build/local.conf            - Настройка сборки дистрибут
 build/bblayers.conf         - Настройка слоев участвующих в сборке
 $ install.sh                - Скрипт инициализации репозиториев
 $ build.sh                  - Скрипт старта сборки
-
+`
 После завершения сборки образ для SD карты будет лежать в директории
 ./build/tmp/deploy/images/orange-pi-zero/core-image-minimal-orange-pi-zero-<какойто номер>.rootfs.wic.bz2
 
