@@ -29,6 +29,8 @@ $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib bu
     └── third-party
         └── meta-customer
 ```
+        
+```
 third-party/meta-customer   - Мета-слой с набором патчей для включения rs485 в драйвере ядра
 build/local.conf            - Настройка сборки дистрибутива, сейчас дефолтная сборка для разработки + поддержка deb
 build/bblayers.conf         - Настройка слоев участвующих в сборке
