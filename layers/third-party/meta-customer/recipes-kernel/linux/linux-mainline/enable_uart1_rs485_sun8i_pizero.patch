@@ -1,0 +1,28 @@
+diff --git a/arch/arm/boot/dts/sun8i-h2-plus-orangepi-zero.dts b/arch/arm/boot/dts/sun8i-h2-plus-orangepi-zero.dts
+index 27d1bbaaa..3b6d99ae4 100644
+--- a/arch/arm/boot/dts/sun8i-h2-plus-orangepi-zero.dts
++++ b/arch/arm/boot/dts/sun8i-h2-plus-orangepi-zero.dts
+@@ -198,6 +198,10 @@
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&uart1_pins>;
+ 	status = "okay";
++	linux,rs485-enabled-at-boot-time;
++	rs485-rts-active-low;
++	rts-gpios = <&pio 0 2 1>;
++	rs485-rts-delay = <0 0>;
+ };
+ 
+ &uart2 {
+@@ -222,6 +226,12 @@
+ };
+ 
+ &pio {
++       uart1_rts_cts: uart1_rts_cts
++       {
++               pins = "PA2";
++               function = "uart1";
++       };
++
+ 	wifi_wake: wifi_wake {
+ 		pins = "PG10";
+ 		function = "gpio_in";
