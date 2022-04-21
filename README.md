@@ -1,5 +1,5 @@
 ## DIY Yocto дистрибутив для шилда на 2 порта RS-485
-![image](https://user-images.githubusercontent.com/32985830/163590032-d84f0943-8463-40f4-8f81-e4c9355a1b6c.png)
+![image](https://user-images.githubusercontent.com/32985830/164523352-40503595-3882-4da0-a64c-4cfca03625d0.png)
 
 ## Сборка Yocto под WSL2
 
